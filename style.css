@@ -17,7 +17,7 @@
 #fg{
     width: 400px;
     height: 100px;
-    background-image: url(fg.png);
+    background-image: url(Images/fg.png);
     background-size: cover;
     position: relative;
     bottom: 6px;
@@ -52,7 +52,7 @@
     animation: block 2s infinite linear;
 }
 #charac{
-    background-image: url(bird.png); 
+    background-image: url(Images/bird.png); 
     background-size: cover;
     width: 50px;
     height: 32px;
