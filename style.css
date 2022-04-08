@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#game{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+    background-color:rgb(107, 236, 245);
+    /* background-image: url(bg.png); */
+    /* background-size: cover; */
+}
+
+#fg{
+    width: 400px;
+    height: 100px;
+    background-image: url(fg.png);
+    background-size: cover;
+    position: relative;
+    bottom: 6px;
+    border: 1px solid black;
+    margin: auto;;
+
+}
+#block{
+    width: 50px;
+    height: 500px;
+    background-color:  rgb(27, 190, 27);
+    position: relative;
+    left: 400px;
+    animation: block 2s infinite linear;
+}
+@keyframes block {
+    0%{
+        left: 400px;
+    }
+    100%{
+        left: -50px;
+    }
+    
+}
+#hole{
+    width: 50px;
+    height: 150px;
+    position: relative;
+    background-color:rgb(107, 236, 245);
+    left: 400px;
+    top: -500px;
+    animation: block 2s infinite linear;
+}
+#charac{
+    background-image: url(bird.png); 
+    background-size: cover;
+    width: 50px;
+    height: 32px;
+    /* background-color: red;  */
+    position: absolute;
+    top: 100px;
+    /* border-radius: 50%;  */
+}
